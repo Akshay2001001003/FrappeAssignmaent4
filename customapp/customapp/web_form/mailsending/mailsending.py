@@ -9,7 +9,7 @@ def send_form_submission_notification(email):
         frappe.sendmail(
             recipients=email,  # Set the recipient email address
             subject='Form Submission Notification',  # Set the email subject
-            content='deepprakash',  # Set the email content
+            content='Thankyou for submitting the Form',  # Set the email content
             now=True  # Send the email immediately
         )
 
