@@ -68,7 +68,7 @@ To install this feature, follow these steps:
     Clone repository to apps folder in frappe bench directory:
 
     ```bash
-    git clone https://github.com/Akshay2001001003/serverSideScript-2.git
+    git clone https://github.com/Akshay2001001003/FrappeAssignmaent4.git
     bench --site [sitename] install-app [appname]
     ```
 
