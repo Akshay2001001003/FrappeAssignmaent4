@@ -1,0 +1,21 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "cust",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-05-16 17:31:27.254227",
+ "dashboard_name": "dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-05-16 17:31:27.254227",
+ "modified_by": "Administrator",
+ "module": "Customapp",
+ "name": "dashboard",
+ "owner": "Administrator"
+}

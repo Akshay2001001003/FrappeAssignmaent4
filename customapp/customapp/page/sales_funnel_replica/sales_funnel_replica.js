@@ -1,13 +1,13 @@
 frappe.pages['sales-funnel-replica'].on_page_load = function(wrapper) {
 	var page = frappe.ui.make_app_page({
 		parent: wrapper,
-		title: 'Sales Funnel',
+		title: __('Sales Funnel Replica'),
 		single_column: true
 	});
 	wrapper.sales_funnel = new erpnext.SalesFunnel(wrapper);
-	frappe.breadcrumbs.add("Selling");
+	// frappe.breadcrumbs.add("Selling");
 }
-erpnext.SalesFunnel = class SalesFunnel {
+erpnext.SalesFunnel = class salesfunnelreplica {
 	constructor(wrapper) {
 		var me = this;
 		// 0 setTimeout hack - this gives time for canvas to get width and height
@@ -94,7 +94,6 @@ erpnext.SalesFunnel = class SalesFunnel {
 		// bind resize
 		$(window).resize(function () {
 			me.render();
-			
 		});
 	}
 
