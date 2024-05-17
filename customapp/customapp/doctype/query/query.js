@@ -3,7 +3,6 @@
 
 frappe.ui.form.on("query", {
 	refresh(frm) {
-        // console.log(locals[cdt][cdn]);
         frm.add_custom_button(__("Add Items"),function(){
             let d = new frappe.ui.Dialog({
                 title: 'Enter details',
